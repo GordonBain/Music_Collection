@@ -1,9 +1,9 @@
 require('pry-byebug')
-require_relative('Album')
 require_relative('Artist')
+require_relative('Album')
 
 
-artist1 = Artist.new({ 'name' => 'Amy Whinehouse'})
+artist1 = Artist.new({ 'name' => 'Amy Winehouse'})
 artist2 = Artist.new({ 'name' => 'Jon Bon Jovi'})
 
 artist1.save
